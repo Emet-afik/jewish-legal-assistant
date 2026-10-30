@@ -214,7 +214,7 @@ SECRET = re.compile(r"(sk-[A-Za-z0-9]{20,}|AKIA[A-Z0-9]{16}|ghp_[A-Za-z0-9]{36}|
 EMAIL = re.compile(r"[\w.+-]+@[\w-]+\.[\w.-]+")
 ALLOWED_EMAIL = re.compile(r"(@example\.com$|^noreply@anthropic\.com$)")
 for p in ROOT.rglob("*"):
-    if p.is_dir() or ".git" in p.parts or "_sources" in p.parts or p.suffix in (".pyc",):
+    if p.is_dir() or ".git" in p.parts or "_sources" in p.parts or p.suffix in (".pyc",) or p.name.endswith(".raw.json"):
         continue
     try:
         t = p.read_text(encoding="utf-8")

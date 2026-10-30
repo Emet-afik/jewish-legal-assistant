@@ -1,0 +1,18 @@
+{
+  "scenario": "08-website-audit.md",
+  "duration_s": 78.0,
+  "exit_code": 0,
+  "skill_triggered": true,
+  "tools": [
+    "Skill:jewish-lawyer",
+    "Read:",
+    "Bash:ls -la \"<repo>/tests/fixtures/demo",
+    "Read:",
+    "Read:",
+    "Read:",
+    "Read:",
+    "Glob:"
+  ],
+  "cost_usd": 0.7344445000000001,
+  "stderr_tail": ""
+}

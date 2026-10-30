@@ -124,13 +124,13 @@
     },
     {
       "id": "cpl-230-late-trial",
-      "claim": "Criminal Procedure Law s.230 (סעיף 230): the court may hold the trial even if the request to be tried was late, where the s.229(e) conditions are met or for other special reasons.",
+      "claim": "Criminal Procedure Law s.230 (סעיף 230): the court may hold the trial even if the request to be tried was late, where the s.229(e) conditions are met or for other special reasons; and if the person is convicted and fined, the fine may not be lower than the amount in the fine notice unless the court sees special circumstances.",
       "numbers": [
         "230",
         "229"
       ],
       "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%A1%D7%93%D7%A8_%D7%94%D7%93%D7%99%D7%9F_%D7%94%D7%A4%D7%9C%D7%99%D7%9C%D7%99",
-      "quote": "…למשפט תוך שנה מיום שנתקבלה הודעתו; בית המשפט רשאי, לקיים את המשפט גם אם אותו אדם ביקש להישפט באיחור, ובלבד שהתקיימו התנאים האמורים בסעיף 229(ה), בשינויים המחויבים, או מנימוקים מיוחדים אחרים שיפרט בהחלטתו; הורשע האדם בבית המשפט על העבירה ונגזר דינו לקנס, לא יפחת הקנס מהסכום הנקוב בהודעת תשלום הקנס, אלא אם כן ראה בית…",
+      "quote": "…למשפט תוך שנה מיום שנתקבלה הודעתו; בית המשפט רשאי, לקיים את המשפט גם אם אותו אדם ביקש להישפט באיחור, ובלבד שהתקיימו התנאים האמורים בסעיף 229(ה), בשינויים המחויבים, או מנימוקים מיוחדים אחרים שיפרט בהחלטתו; הורשע האדם בבית המשפט על העבירה ונגזר דינו לקנס, לא יפחת הקנס מהסכום הנקוב בהודעת תשלום הקנס, אלא אם כן ראה בית המשפט נסיבות מיוחדות המצדיקות הפחתתו. סעיף 230א – (פקע). סעיף 230ב – (פקע). סעיף 230ג – (פקע). סעיף 230ד – (פקע). סעיף 230ה – (פקע). סעיף 230ו – (פקע). סעיף 230ז – (פקע). סעיף 230ח – (פקע). סעיף 230ט –…",
       "verified_at": "2026-10-30",
       "verified_via": "Hebrew Wikisource raw text (action=raw), grepped verbatim",
       "appears_in": [
@@ -355,11 +355,7 @@
       "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
       "appears_in": [
         "SKILL.md",
-        "references/fines.md",
-        "templates/driver-declaration.md",
-        "templates/natz-objection.md",
-        "templates/parking-cancellation.md",
-        "templates/traffic-objection.md"
+        "references/fines.md"
       ]
     },
     {
@@ -425,8 +421,7 @@
       "verified_via": "Hebrew Wikisource raw text, grepped verbatim",
       "appears_in": [
         "SKILL.md",
-        "references/fines.md",
-        "templates/traffic-objection.md"
+        "references/fines.md"
       ]
     },
     {

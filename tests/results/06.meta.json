@@ -1,0 +1,13 @@
+{
+  "scenario": "06-technician-one-off.md",
+  "duration_s": 67.9,
+  "exit_code": 0,
+  "skill_triggered": true,
+  "tools": [
+    "Skill:jewish-lawyer",
+    "Read:",
+    "Read:"
+  ],
+  "cost_usd": 0.6337841,
+  "stderr_tail": ""
+}

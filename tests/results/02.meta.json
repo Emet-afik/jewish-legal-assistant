@@ -1,0 +1,15 @@
+{
+  "scenario": "02-camera-late-5-months.md",
+  "duration_s": 129.8,
+  "exit_code": 0,
+  "skill_triggered": true,
+  "tools": [
+    "Skill:jewish-lawyer",
+    "Read:",
+    "Read:",
+    "Read:",
+    "Bash:cd <tmp>"
+  ],
+  "cost_usd": 0.8597944,
+  "stderr_tail": ""
+}

@@ -1,0 +1,18 @@
+{
+  "scenario": "07-defective-product-small-claim.md",
+  "duration_s": 147.1,
+  "exit_code": 0,
+  "skill_triggered": true,
+  "tools": [
+    "Skill:jewish-lawyer",
+    "Bash:cd <tmp>",
+    "Read:",
+    "Read:",
+    "Read:",
+    "Bash:cd <tmp>",
+    "Bash:cd <tmp>",
+    "Read:"
+  ],
+  "cost_usd": 1.0073325000000002,
+  "stderr_tail": ""
+}
