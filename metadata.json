@@ -8,17 +8,31 @@
     "en": "A personal Hebrew-speaking legal helper for ordinary people in Israel. Fights parking, traffic, camera and bus-lane tickets: reads a photo of the ticket, scores every argument, computes exact deadlines and writes a ready cancellation letter. Drafts consumer demand letters (late technician, cancelling a purchase, spam), prepares a small-claims court claim, and audits a new website against Israeli consumer, accessibility and privacy law. Every figure and section is backed by a source. Not legal advice."
   },
   "tags": {
-    "he": ["דוחות", "דוח-חניה", "נת\"צ", "צרכנות", "תביעה-קטנה", "נגישות-אתרים", "ישראל"],
-    "en": ["traffic-tickets", "parking", "bus-lane", "consumer-rights", "small-claims", "website-compliance", "israel"]
+    "he": [
+      "דוחות",
+      "דוח-חניה",
+      "נת\"צ",
+      "צרכנות",
+      "תביעה-קטנה",
+      "נגישות-אתרים",
+      "ישראל"
+    ],
+    "en": [
+      "traffic-tickets",
+      "parking",
+      "bus-lane",
+      "consumer-rights",
+      "small-claims",
+      "website-compliance",
+      "israel"
+    ]
   },
   "author": "Afik505",
   "version": "1.0.0",
   "license": "MIT",
-  "based_on": [
-    "skills-il/legal-tech: israeli-fines-fighter",
-    "skills-il/legal-tech: israeli-small-claims-court",
-    "skills-il/legal-tech: israeli-consumer-claim-kit",
-    "skills-il/security-compliance: israeli-ecommerce-compliance"
-  ],
-  "supported_agents": ["claude-code", "claude-ai", "claude-desktop"]
+  "supported_agents": [
+    "claude-code",
+    "claude-ai",
+    "claude-desktop"
+  ]
 }

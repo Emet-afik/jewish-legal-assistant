@@ -7,7 +7,6 @@
   python3 small_claims_fee.py --amount 4800
   python3 small_claims_fee.py --amount 4800 --json
 
-מבוסס על filing-fee-calculator.py של Skills IL (MIT), עם פלט בעברית ו-JSON.
 """
 import argparse
 import json
