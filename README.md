@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Jewish Lawyer: עוזר משפטי אישי בעברית" width="100%">
+  <img src="assets/banner.svg" alt="Jewish Legal Assistant: עוזר משפטי אישי בעברית" width="100%">
 </p>
 
 <p align="center">
@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/license-MIT-lightgrey" alt="MIT">
 </p>
 
-# Jewish Lawyer: עוזר משפטי אישי בעברית
+# Jewish Legal Assistant: עוזר משפטי אישי בעברית
 
 סקיל ל-Claude שעוזר לאנשים רגילים בישראל להתמודד לבד עם ארבעה דברים:
 
@@ -79,10 +79,10 @@ flowchart LR
 **בפקודה אחת:**
 
 ```bash
-git clone https://github.com/Emet-afik/jewish-lawyer ~/.claude/skills/jewish-lawyer
+git clone https://github.com/Emet-afik/jewish-legal-assistant ~/.claude/skills/jewish-legal-assistant
 ```
 
-**או בלי טרמינל:** מדביקים ב-Claude Code את הקישור `https://github.com/Emet-afik/jewish-lawyer` וכותבים "תתקין את הסקיל הזה".
+**או בלי טרמינל:** מדביקים ב-Claude Code את הקישור `https://github.com/Emet-afik/jewish-legal-assistant` וכותבים "תתקין את הסקיל הזה".
 
 אחרי ההתקנה פותחים שיחה חדשה ב-Claude Code. הסקיל נטען לבד כשמדברים על דוח, צרכנות, תביעה קטנה או אתר.
 

@@ -1,10 +1,10 @@
 ---
-name: jewish-lawyer
+name: jewish-legal-assistant
 description: 'Personal Hebrew-speaking legal helper for ordinary people in Israel. Fights parking, traffic, camera and bus-lane tickets (reads a photo of the ticket, scores every argument, computes exact deadlines, writes a ready cancellation letter), drafts consumer demand letters (late technician, cancelling a purchase, spam), prepares a small-claims court claim, and audits a new website against Israeli consumer, accessibility and privacy law. Use when the user writes in Hebrew or English about a ticket or fine, or uses words such as דוח, דוח חניה, קנס, דוח תנועה, נת"צ, מצלמה, ערעור, ביטול דוח, טכנאי, ביטול עסקה, ספאם, תביעה קטנה, תקנון, מדיניות פרטיות, נגישות, "האתר שלי חוקי", or sends a photo of a ticket. Do NOT use for serious criminal charges, drunk driving, accidents with injuries, family law, or claims above the small-claims ceiling.'
 license: MIT
 ---
 
-# Jewish Lawyer: עוזר משפטי אישי בעברית
+# Jewish Legal Assistant: עוזר משפטי אישי בעברית
 
 עוזר משפטי לאנשים רגילים בישראל, בארבעה תחומים: דוחות, צרכנות, תביעה קטנה ובדיקת אתר.
 

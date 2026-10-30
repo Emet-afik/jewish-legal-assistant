@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "skill": "jewish-lawyer",
+  "skill": "jewish-legal-assistant",
   "generated_at": "2026-10-30",
   "how_verified": "Statutes and regulations were downloaded as raw wikitext from he.wikisource.org (action=raw) and every quote below was extracted from that text by the build script, which fails if the anchor phrase is missing. Web pages were fetched live; gov.il pages (which return 403 to scripts) were verified through Wayback Machine captures, recorded in the 'wayback' field. Every number in the 'numbers' array appears in the claim text or the quote.",
   "structural_numbers": [

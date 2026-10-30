@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Validates the jewish-lawyer skill.
+# Validates the jewish-legal-assistant skill.
 # Usage: bash scripts/validate.sh        (from the repo root, or any directory)
 # Exit code: 0 = valid, 1 = errors found.
 #
@@ -53,14 +53,14 @@ except Exception as e:
     meta = {}
 
 name = str(meta.get("name", ""))
-if name != "jewish-lawyer":
-    err(f"name must be 'jewish-lawyer' (got '{name}')")
+if name != "jewish-legal-assistant":
+    err(f"name must be 'jewish-legal-assistant' (got '{name}')")
 if not re.fullmatch(r"[a-z0-9]+(-[a-z0-9]+)*", name or "x"):
     err("name must be kebab-case")
 if re.search(r"claude|anthropic", name, re.I):
     err("name may not contain 'claude' or 'anthropic'")
-if ROOT.name != "jewish-lawyer":
-    warn(f"repo folder is '{ROOT.name}'; install it as ~/.claude/skills/jewish-lawyer so the folder matches the name")
+if ROOT.name != "jewish-legal-assistant":
+    warn(f"repo folder is '{ROOT.name}'; install it as ~/.claude/skills/jewish-legal-assistant so the folder matches the name")
 if str(meta.get("license", "")) != "MIT":
     err("license must be MIT")
 desc = str(meta.get("description", ""))

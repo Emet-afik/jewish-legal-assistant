@@ -23,7 +23,7 @@ import urllib.parse
 import urllib.request
 from html.parser import HTMLParser
 
-UA = "Mozilla/5.0 (compatible; jewish-lawyer-site-check/1.0)"
+UA = "Mozilla/5.0 (compatible; jewish-legal-assistant-site-check/1.0)"
 MAX_BYTES = 2_000_000
 TIMEOUT = 15
 

@@ -2,7 +2,7 @@
 """Runs the test scenarios through `claude -p` with the skill loaded, then checks them.
 
 The skill is loaded the way a user would install it: a temporary project folder
-gets `.claude/skills/jewish-lawyer` pointing at this repo, and `claude -p` runs
+gets `.claude/skills/jewish-legal-assistant` pointing at this repo, and `claude -p` runs
 there. Nothing in ~/.claude is touched.
 
 Usage:
@@ -70,10 +70,10 @@ def run_one(path, workdir, model):
                     inp = c.get("input", {})
                     tools.append(c.get("name") + (":" + str(inp.get("skill") or inp.get("command", ""))[:60]))
                     blob = json.dumps(inp, ensure_ascii=False)
-                    if c.get("name") == "Skill" and "jewish-lawyer" in blob:
+                    if c.get("name") == "Skill" and "jewish-legal-assistant" in blob:
                         skill_hit = True
                     if c.get("name") == "Read" and blob.find("SKILL.md") >= 0 and (
-                            "jewish-lawyer" in blob or str(REPO) in blob):
+                            "jewish-legal-assistant" in blob or str(REPO) in blob):
                         skill_hit = True
         if ev.get("type") == "result":
             final = ev.get("result", "") or ""
@@ -101,7 +101,7 @@ def main():
         with tempfile.TemporaryDirectory(prefix="jl-run-") as wd:
             skills = pathlib.Path(wd) / ".claude" / "skills"
             skills.mkdir(parents=True)
-            os.symlink(REPO, skills / "jewish-lawyer")
+            os.symlink(REPO, skills / "jewish-legal-assistant")
             with cf.ThreadPoolExecutor(max_workers=a.jobs) as ex:
                 for sid, dur, rc, hit in ex.map(lambda p: run_one(p, wd, a.model), paths):
                     print(f"ran {sid}: {dur}s exit={rc} skill_triggered={hit}", flush=True)
