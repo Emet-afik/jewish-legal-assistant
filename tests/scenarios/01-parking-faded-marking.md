@@ -24,10 +24,22 @@
 
 ```json
 {
-  "must_include": ["17.11.2026", "חזקה", "בינונית", "עיריית תל אביב"],
-  "must_match": ["הנדון", "בקשה לביטול"],
+  "must_include": [
+    "17.11.2026",
+    "חזקה",
+    "בינונית",
+    "עיריית תל אביב",
+    "אל תשלמו \"ליתר ביטחון\""
+  ],
+  "must_match": [
+    "הנדון",
+    "בקשה לביטול"
+  ],
   "must_not_match": [],
-  "warning_before": ["17.11.2026", "חזקה"],
+  "warning_before": [
+    "17.11.2026",
+    "חזקה"
+  ],
   "letter_required": true,
   "scores_required": true,
   "skill_must_trigger": true

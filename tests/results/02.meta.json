@@ -1,6 +1,6 @@
 {
   "scenario": "02-camera-late-5-months.md",
-  "duration_s": 129.8,
+  "duration_s": 131.6,
   "exit_code": 0,
   "skill_triggered": true,
   "tools": [
@@ -8,8 +8,9 @@
     "Read:",
     "Read:",
     "Read:",
+    "Bash:cd <tmp>",
     "Bash:cd <tmp>"
   ],
-  "cost_usd": 0.8597944,
+  "cost_usd": 0.8919718000000001,
   "stderr_tail": ""
 }

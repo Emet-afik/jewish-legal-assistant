@@ -23,7 +23,7 @@ REPO = pathlib.Path(__file__).resolve().parent.parent
 SCEN = REPO / "tests" / "scenarios"
 RES = REPO / "tests" / "results"
 CLOSING = "זו המחשה שעוזרת לכם להכין את המסמכים, לא ייעוץ משפטי. בתיק רציני, או כשיש נקודות ברישיון, דברו עם עורך דין."
-WARNING_MARKERS = ["ליתר ביטחון", "229(ח)"]
+WARNING_MARKERS = ["ליתר ביטחון", "229(ח)", "אל תשלמו"]
 HEB = "֐-׿"
 
 ev = json.loads((REPO / "evidence.json").read_text(encoding="utf-8"))
@@ -56,7 +56,7 @@ def unexplained(answer, prompt, allowed):
             continue
         if re.fullmatch(r"\d{1,3}", n) and re.match(r"\s*(יום|ימים|ימי|שעות|שעה|דקות|חודשים)", after):
             continue                                                 # a counted interval
-        if n in ("2026", "2027"):
+        if n in ("0", "2026", "2027"):                              # zero (a computed "nothing owed") and the current years
             continue
         bad.append(tok)
     return sorted(set(bad), key=lambda x: (len(x), x))

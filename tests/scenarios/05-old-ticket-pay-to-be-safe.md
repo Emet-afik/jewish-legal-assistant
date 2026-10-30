@@ -17,10 +17,20 @@
 
 ```json
 {
-  "must_include": ["229(ח)", "23.11.2026"],
-  "must_match": ["הודה", "הורשע"],
+  "must_include": [
+    "229(ח)",
+    "23.11.2026",
+    "אל תשלמו \"ליתר ביטחון\""
+  ],
+  "must_match": [
+    "הוד(ה|ית|יתם|אה)",
+    "הורשע"
+  ],
   "must_not_match": [],
-  "warning_before": ["23.11.2026", "24.09.2026"],
+  "warning_before": [
+    "23.11.2026",
+    "24.09.2026"
+  ],
   "warning_within_chars": 400,
   "skill_must_trigger": true
 }

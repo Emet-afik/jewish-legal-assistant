@@ -1,6 +1,6 @@
 {
   "scenario": "06-technician-one-off.md",
-  "duration_s": 67.9,
+  "duration_s": 48.9,
   "exit_code": 0,
   "skill_triggered": true,
   "tools": [
@@ -8,6 +8,6 @@
     "Read:",
     "Read:"
   ],
-  "cost_usd": 0.6337841,
+  "cost_usd": 0.6169747,
   "stderr_tail": ""
 }

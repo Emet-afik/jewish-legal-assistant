@@ -22,10 +22,19 @@
 
 ```json
 {
-  "must_include": ["10.01.2027", "90"],
-  "must_match": ["תעודת זהות|ת\"ז", "מרכז פניות נהגים"],
+  "must_include": [
+    "10.01.2027",
+    "90",
+    "אל תשלמו \"ליתר ביטחון\""
+  ],
+  "must_match": [
+    "תעודת זהות|ת\"ז",
+    "מרכז פניות נהגים"
+  ],
   "must_not_match": [],
-  "warning_before": ["10.01.2027"],
+  "warning_before": [
+    "10.01.2027"
+  ],
   "letter_required": true,
   "skill_must_trigger": true
 }

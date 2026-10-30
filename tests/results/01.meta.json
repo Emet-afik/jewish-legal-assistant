@@ -1,6 +1,6 @@
 {
   "scenario": "01-parking-faded-marking.md",
-  "duration_s": 101.5,
+  "duration_s": 109.4,
   "exit_code": 0,
   "skill_triggered": true,
   "tools": [
@@ -10,6 +10,6 @@
     "Read:",
     "Bash:cd <tmp>"
   ],
-  "cost_usd": 0.7907991,
+  "cost_usd": 0.791121,
   "stderr_tail": ""
 }

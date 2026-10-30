@@ -1,6 +1,6 @@
 {
   "scenario": "03-camera-other-driver.md",
-  "duration_s": 108.5,
+  "duration_s": 99.5,
   "exit_code": 0,
   "skill_triggered": true,
   "tools": [
@@ -10,6 +10,6 @@
     "Read:",
     "Bash:cd <tmp>"
   ],
-  "cost_usd": 0.7701500000000001,
+  "cost_usd": 0.7404958,
   "stderr_tail": ""
 }
