@@ -84,8 +84,8 @@ if words > 4000:
     err(f"SKILL.md body is {words} words (max 4,000)")
 CLOSING = "זו המחשה שעוזרת לכם להכין את המסמכים, לא ייעוץ משפטי. בתיק רציני, או כשיש נקודות ברישיון, דברו עם עורך דין."
 for label, needle in [("closing line", CLOSING),
-                      ("Hebrew legal notice", "כלי זה הוא כלי מידע חינמי, הפועל באמצעות מודל בינה מלאכותית"),
-                      ("English legal notice", "This is a free information tool operated by an AI model"),
+                      ("Hebrew legal notice", "הסקיל הזה הוא כלי עזר חינמי שמופעל על ידי בינה מלאכותית"),
+                      ("English legal notice", "This skill is a free helper run by artificial intelligence"),
                       ("don't-pay warning", 'אל תשלמו "ליתר ביטחון"'),
                       ("s.229(h) in warning", "229(ח)")]:
     if needle not in body:

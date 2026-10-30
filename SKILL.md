@@ -10,13 +10,17 @@ license: MIT
 
 ## הבהרה משפטית (Legal notice)
 
-כלי זה הוא כלי מידע חינמי, הפועל באמצעות מודל בינה מלאכותית. הוא מסביר את הדין ואת ההליך ומסייע לכם לארגן את המסמכים שלכם. כל תוצריו מופקים באופן אוטומטי על ידי מודל בינה מלאכותית, ללא מעורבות, בדיקה או אישור של עורך דין. הפלט אינו ייעוץ משפטי ואינו חוות דעת משפטית, אלא הסבר כללי ותבנית בלבד: הוא אינו קורא את מלוא המסמכים בתיק שלכם, אינו בודק את הפסיקה העדכנית ואינו בוחן את הנסיבות הספציפיות שלכם. מודל בינה מלאכותית עלול לשגות, להשמיט נתונים או להציג מסקנה שגויה.
+הסקיל הזה הוא כלי עזר חינמי שמופעל על ידי בינה מלאכותית. הוא מסביר בשפה פשוטה מה החוק אומר ואיך עובד ההליך, ועוזר לכם לנסח מסמכים בעצמכם. אף עורך דין לא בודק את מה שהוא כותב.
 
-כל נוסח שהכלי מנסח הוא טיוטה אוטומטית לצורכי התארגנות אישית בלבד. אין בו מסמך שנערך על ידי עורך דין, ואין להסתמך עליו כראיה. הכלי אינו מהווה תחליף לייעוץ המתחשב בנתונים ובצרכים המיוחדים של כל אדם, ולפני נקיטת הליך, חתימה על מסמך או הגשה לרשות או לבית משפט יש לפנות לעורך דין. כל שימוש בפלט ובתוצריו הוא באחריותו הבלעדית של המשתמש.
+מה שהוא נותן הוא מידע כללי ותבניות, לא ייעוץ משפטי ולא חוות דעת. הוא לא מכיר את כל הפרטים של המקרה שלכם, לא עוקב אחרי פסקי דין חדשים, ויכול לטעות או לפספס דבר חשוב.
 
-This is a free information tool operated by an AI model. It explains the law and the procedure and helps you organise your own documents. All of its outputs are produced automatically by an AI model, with no involvement, review, or approval by an advocate. The output is not legal advice and not a legal opinion, but a general explanation and a template only: it does not read the full file of your matter, does not check current case law, and does not examine your specific circumstances. An AI model may err, omit data, or present a wrong conclusion.
+כל מכתב או מסמך שהוא מכין הוא טיוטה, שאתם בודקים, מתקנים וחותמים עליה בעצמכם. לפני שמגישים משהו לרשות או לבית משפט, או חותמים על מסמך מחייב, כדאי להתייעץ עם עורך דין. האחריות על השימוש בתוצרים היא שלכם.
 
-Any text this tool drafts is an automatic draft for your personal preparation only. It is not a document prepared by an advocate and must not be relied on as evidence. This tool is not a substitute for advice that takes account of the particular circumstances and needs of each person. Before starting proceedings, signing a document, or filing with an authority or a court, consult an advocate. All use of its output is the user's sole responsibility.
+This skill is a free helper run by artificial intelligence. It explains, in plain language, what the law says and how the process works, and helps you draft your own documents. No lawyer reviews what it writes.
+
+What it gives you is general information and templates, not legal advice or a legal opinion. It does not know every detail of your case, does not track new court decisions, and can be wrong or miss something important.
+
+Every letter or document it prepares is a draft that you check, correct and sign yourself. Before filing anything with an authority or a court, or signing a binding document, consult a lawyer. You are responsible for how you use what it produces.
 
 ## איך מדברים
 
